@@ -6,5 +6,11 @@ variable "aws_region" {
 
 variable "db_name" {
   type = string
-  description = "Default aws region to deploy into"
+  description = "Default db name to deploy into"
   }
+
+variable "password" {
+  type = string
+  description = "Default to deploy into"
+  }
+
